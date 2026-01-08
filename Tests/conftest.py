@@ -2,7 +2,6 @@ import pytest
 from selenium import webdriver
 from Library import configreader
 
-
 @pytest.fixture(scope="function")
 def openbrowser():
     #global driver
